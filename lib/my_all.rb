@@ -7,7 +7,11 @@ def my_all?(collection)
     i += 1
     vals << yield(collection[i-1])
   end
-  if vals == false
-    return false
+
+  vals.each do |item|
+    if item == false
+      return false
+    end
   end
+
 end
