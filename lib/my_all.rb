@@ -2,7 +2,7 @@ require 'pry'
 
 def my_all?(collection)
   i = 0
-  val = nil
+  val = true
   vals = []
   while i < collection.length
     i += 1
