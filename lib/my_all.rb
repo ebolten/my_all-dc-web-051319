@@ -9,4 +9,4 @@ def my_all?(collection)
   end
 
   return vals
-  end
+end
