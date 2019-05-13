@@ -9,9 +9,6 @@ def my_all?(collection)
       is_true += 1
     end
   end
-  if is_true == collection.length
-    return true
-  else
-    return false
+  return collection
   end
 end
