@@ -9,4 +9,5 @@ def my_all?(collection)
   end
   if vals == false
     return false
+  end
 end
