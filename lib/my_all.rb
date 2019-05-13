@@ -8,5 +8,5 @@ def my_all?(collection)
     vals << yield collection[i]
     end
   end
-  return collection
+  return vals
   end
