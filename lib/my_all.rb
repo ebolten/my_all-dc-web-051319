@@ -11,4 +11,3 @@ def my_all?(collection)
   end
   return collection
   end
-end
