@@ -2,6 +2,7 @@ require 'pry'
 
 def my_all?(collection)
   i = 0
+  val = nil
   vals = []
   while i < collection.length
     i += 1
@@ -10,8 +11,9 @@ def my_all?(collection)
 
   vals.each do |item|
     if item == false
-      return false
+      val =  false
     end
   end
+  return val
 
 end
