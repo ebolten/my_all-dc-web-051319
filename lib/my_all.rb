@@ -7,6 +7,6 @@ def my_all?(collection)
     i += 1
     vals << yield(collection[i-1])
   end
-
-  return vals
+  if vals == false
+    return false
 end
